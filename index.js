@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', function (req, res) {
     
-    return res.send('Welcome to PissCruft Ai!');
+    return res.send('你好');
 });
 
 app.listen(8080);
